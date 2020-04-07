@@ -19,6 +19,12 @@ enum custom_keycodes {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
+/* This is echoe's base keymap for the vitamins included rev2.
+ * Note: to flash successfully, set toolkit to 'atmega32u4'.
+ * Keymap is inspired by the Kinesis Advantage. Game mode is for games that need number row access.
+ * If you want changes, please go ahead! :D
+ */
+
 /* Default QWERTY layer. Double space on thumb, other changes. Right enter is shift when held.
  * ,-----------------------------------------.  ,-----------------------------------------.
  * | Tab  |   Q  |   W  |   E  |   R  |   T  |  |   Y  |   U  |   I  |   O  |   P  | GAME |
